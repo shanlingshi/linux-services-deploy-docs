@@ -37,8 +37,8 @@ mv mysql-8.0.20-linux-glibc2.12-x86_64 /usr/local/mysql
 ```shell
 mkdir /usr/local/mysql/data
 ```
-创建 mysql.imi 配置文件，位置：mysql安装目录，即 /usr/local/mysql
-```imi
+创建 mysql.ini 配置文件，位置：mysql安装目录，即 /usr/local/mysql
+```ini
 [client]
 # 设置mysql客户端默认字符集
 default-character-set = utf8
