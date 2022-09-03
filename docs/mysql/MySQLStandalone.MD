@@ -7,11 +7,11 @@
 
 下载压缩包上传至服务器方式
 
-![mysql_download.png](../images/mysql_download.png)
+![mysql_download.png](../../images/mysql/mysql_download.png)
 
 wget 直接下载方式
 
-![mysql_wget.png](../images/mysql_wget.png)
+![mysql_wget.png](../../images/mysql/mysql_wget.png)
 
 ```shell
 [root@VM-0-6-centos tmp] wget https://downloads.mysql.com/archives/get/p/23/file/mysql-8.0.20-linux-glibc2.12-x86_64.tar.xz
@@ -39,7 +39,9 @@ mv 至 /usr/local 并改名为 mysql
 [root@VM-0-6-centos tmp] mkdir /usr/local/mysql/etc
 ```
 
-创建 mysql.cnf 配置文件，位置：/usr/local/mysql/etc
+创建 my.cnf 配置文件，内容如下，位置：/usr/local/mysql/etc
+
+文件：[my.cnf](../../conf/mysql/my.cnf)
 ```ini
 [mysqld]
 # 设置3306端口
@@ -174,8 +176,8 @@ Query OK, 0 rows affected (0.00 sec)
 
 Navicat 连接
 
-![mysql_navicat_connect.png](../images/mysql_navicat_connect.png)
+![mysql_navicat_connect.png](../../images/mysql/mysql_navicat_connect.png)
 
-![mysql_navicat_connect_successful.png](../images/mysql_navicat_connect_successful.png)
+![mysql_navicat_connect_successful.png](../../images/mysql/mysql_navicat_connect_successful.png)
 
 

@@ -9,7 +9,7 @@
 可以选择 wget 或 下载压缩包上传至服务器，这里我选择的版本是 mongodb-linux-x86_64-rhel62-4.4.16.tgz
 
 #### wget下载
-![mongo_download.png](../images/mongo_download.png)
+![mongo_download.png](../../images/mongo/mongo_download.png)
 ```shell
 wget https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel62-4.4.16.tgz
 ```
@@ -37,7 +37,7 @@ mkdir /usr/local/mongodb/mongodb1/data /usr/local/mongodb/mongodb1/log /usr/loca
 ```
 创建 mongodb0 配置文件 mongodb.conf，mongodb1 把所有路径和 port 改掉就行
 
-文件：[mongodb.conf](../conf/mongodb.conf)
+文件：[mongodb.conf](../../conf/mongo/mongodb.conf)
 ```yaml
 # 系统日志相关配置
 systemLog:
@@ -113,6 +113,6 @@ Navicat 连接
 ```shell
 mongodb://root:root@[host]:27000,[host]:27001/?authSource=admin
 ```
-![mongo_navicat_connect.png](../images/mongo_navicat_connect.png)
+![mongo_navicat_connect.png](../../images/mongo/mongo_navicat_connect.png)
 
 ![mongo_navicat_connect_successful.png](..//images/mongo_navicat_connect_successful.png)
