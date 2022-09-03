@@ -1,4 +1,4 @@
-# Linux 之 MySQL单机版安装与配置
+# Linux 之 MySQL安装与配置
 
 ## 下载
 官网：[https://downloads.mysql.com/archives/community/](https://downloads.mysql.com/archives/community/)
