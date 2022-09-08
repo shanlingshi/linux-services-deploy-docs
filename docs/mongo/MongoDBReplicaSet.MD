@@ -9,7 +9,7 @@
 可以选择 wget 或 下载压缩包上传至服务器，这里我选择的版本是 mongodb-linux-x86_64-rhel62-4.4.16.tgz
 
 #### wget下载
-![mongo_download.png](../../images/mongo/mongo_download.png)
+![mongo_download.png](img/mongo_download.png)
 ```shell
 wget https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel62-4.4.16.tgz
 ```
@@ -113,6 +113,6 @@ Navicat 连接
 ```shell
 mongodb://root:root@[host]:27000,[host]:27001/?authSource=admin
 ```
-![mongo_navicat_connect.png](../../images/mongo/mongo_navicat_connect.png)
+![mongo_navicat_connect.png](img/mongo_navicat_connect.png)
 
-![mongo_navicat_connect_successful.png](..//images/mongo_navicat_connect_successful.png)
+![mongo_navicat_connect_successful.png](img/mongo_navicat_connect_successful.png)
